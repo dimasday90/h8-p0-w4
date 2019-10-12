@@ -1,24 +1,3 @@
-// function graduates (students) {
-//     if(students.length === 0) {
-//         return {};
-//     } else {
-//         var average = 75;
-//         var obj = {};
-//         for(var i = 0; i < students.length; i ++ ) {
-//             obj[students[i].class] = []
-//             if(students[i].score > average) {
-//                 obj[students[i].class].push({name: students[i].name, score: students[i].score})
-//             }
-//             // for(var j = students.length - 1; j < i; j --) {
-//             //     if(students[i].class === students[j].class) {
-
-//             //     }
-//             // }
-//         }
-//         return obj;
-//     }
-// }
-
 function graduates (students) {
     var average = 75;
     var obj = {};
