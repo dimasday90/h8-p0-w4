@@ -16,8 +16,8 @@ function cariModus(arr) {
             count = temp;
         }
     }
-    // return patokan + '-' + count;
-    if(boolean = false) {
+    // console.log(patokan + '-' + count);
+    if(boolean = false || count === 1) {
         return -1;
     } else if(count === arr.length) {
         return -1;
